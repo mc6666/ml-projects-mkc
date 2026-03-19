@@ -1,3 +1,4 @@
+# v2
 # https://docs.streamlit.io/library/cheatsheet
 # streamlit run app.py
 import streamlit as st
@@ -17,7 +18,7 @@ data_url_2 = get_image_html("迴歸", "./taxi.png")
 st.set_page_config(
     page_title="我的學習歷程",
     page_icon="👋",
-)
+) 
 
 st.title('Machine Learning 學習歷程')   
 
